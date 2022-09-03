@@ -1,0 +1,126 @@
+/* External Css and Element selector */
+p{
+    color: red;
+}
+
+/* Class selector */
+.class1{
+    color: blue;
+}
+
+/* id selector */
+#id1{
+    color:brown;
+}
+
+/* universal selector */
+*{
+    background-color:palegoldenrod;
+}
+
+/* pseudo class */
+/* hover */
+.pclass{
+    color: purple;
+    background-color: aqua;
+    width: 200px;
+    text-align: center;
+}
+
+.pclass:hover{
+    color: red;
+    background-color: lightpink;
+}
+
+a:hover{
+    color:red;
+}
+a:active{
+    color:aqua;
+}
+
+/* Focus */
+input:focus{
+    background-color:blanchedalmond;
+}
+
+/* first child */
+article p:first-child{
+    color:darkblue;
+    font-weight: bold;
+}
+aside p:last-child{
+    color:darkblue;
+    font-weight: bold;
+}
+article p:nth-child(4){
+    color:darkblue;
+    font-weight: bold;
+}
+/* Unordered list modification */
+ul li{padding: 10px;
+    list-style: none;
+display: inline-block;}
+
+/* Ordered list First, nth, last child */
+ol li:first-child{
+    color: chartreuse;
+}
+ol li:nth-child(3){
+    color:brown;
+}
+ol li:last-child{
+    color:red;
+}
+
+ul li::before{content:"*";}
+
+ol li::after{content:"#";color: black;}
+
+/* first letter */
+article p::first-letter{color:crimson;
+font-size: 50px;}
+
+/* first line */
+article h4::first-line{color: brown;
+font-size: 50px;}
+
+/* pseudo classes and elements usind class selector */
+.uni1{color:black ;
+}
+.uni1:hover{color:red ;
+    background-color: black;
+    width: fit-content;
+}
+
+.uni01{color: black;}
+.uni01:hover{color:blue;}
+.uni01:active{color:aqua;}
+
+.uni2 h6{color: black;
+font-size: 15px;}
+.uni2 h6:first-child{color: red;
+    font-size: 16px;
+}
+
+.uni3 h6{color: black;
+    font-size: 15px;}
+.uni3 h6:last-child{color: red;
+    font-size: 16px;}
+
+.uni4 h6{color: black;
+    font-size: 15px;}
+.uni4 h6:nth-child(3){color: red;
+    font-size: 16px;}
+
+.uni5 li a{color: black;}
+.uni5 li a::before{content:"|";}
+
+.uni6 li{color: black;}
+.uni6 li::after{content:"|";}
+
+.uni7{color: black;}
+.uni7::first-letter{color: red;font-size: 50px;}
+
+.uni8{color: black;}
+.uni8::first-line{color: red;font-size: 30px;}
