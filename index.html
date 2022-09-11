@@ -143,7 +143,62 @@
             <p class="uni7">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, necessitatibus.</p>
             <h3>4. First line</h3>
             <p class="uni8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab at sapiente unde repellat a quaerat porro voluptatem veniam, deserunt aliquam saepe consectetur dignissimos culpa excepturi accusantium nemo eos cumque reprehenderit.</p>
-    </div>
+    </div><hr>
+    <h2 style="margin: 50px; display: inline;">Forms</h2>
+    <div style="display:flex; justify-content: center;">
+        <form action="table.html">
+            <style>
+                form {
+                    width: 350px;
+                    padding: 10px;
+                    border: 2px solid black;
+                }
+            </style>
+            <div>
+                Name :<input type="text" name="username" placeholder="Enter your name"> <br><br>
+                Age :<input type="number" name="number" id="" placeholder="Enter your Age"> <br><br>
+                Password :<input type="password" name="" id="" placeholder="Enter your password"> <br><br>
+                Email :<input type="email" name="" id="" placeholder="Enter your email"> <br>
+                button :<input type="button" name="" id=""> <br>
+                <label for="box">Checkbox :</label>
+                <input type="checkbox" name="" id="box"> <br>
+                Date :<input type="date" name="" id=""> <br>
+            </div>
+            <div>
+                Radio button: <br>
+                Gender :--
+                <label class for="male">Male :</label>
+                <input type="radio" name="gender" id="male">
+                <label for="female">Female :</label>
+                <input type="radio" name="gender" id="female"><br>
+            </div>
+            <div>
+                Select known language:
+                <label class="styl" for="eng">English :</label>
+                <input type="checkbox" name="lang" id="eng">
+                <label for="u">Urdu :</label>
+                <input type="checkbox" name="lang" id="u">
+                <input type="submit" value="SUB"><br>
+            </div>
+            <div>
+                <label for="CAR">CAR</label>
+                <select name="mycar" id="CAR">
+                    <option value="ind">Indica</option>
+                    <option value="n">Nano</option>
+                    <option value="lamb">lambo</option>
+                </select><br>
+            </div>
+            <div>
+                <input type="datetime-local" name="" id="">
+            <input type="time" name="" id="">
+            <input type="file" name="myfile" id=""><br>
+            Search bar:<input type="search" name="" id=""><br>
+            <input type="reset" name="" id=""><br>
+            Write about Yourself : <br> <textarea name="mytext" id="" cols="30" rows="10" placeholder="About Yourself"></textarea>
+            </div>
+        </form>
+    </div><hr>
+    
 </body>
 
 </html>
