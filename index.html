@@ -7,9 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignments</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./icon.png" type="image/png">
 </head>
 
 <body>
+    <div>
+        <p>contact us on <a href="mailto:salauddin36ayubi@gmail.com">salauddin36ayubi@gmail</a> </p>
+        <dl>
+            <dt>coffee</dt>
+            <dd>-black hot</dd>
+            <dt>tea</dt>
+            <dd>-green tea</dd>
+            <dt>milk</dt>
+            <dd>-boost</dd>
+        </dl>
+        <p>hover over below link</p>
+        <p>to read more about us<a href="#" title="go to google">click here</a></p><hr>
+        <p>html file using iframe</p>
+        <iframe src="./1.html" frameborder="0" width="300px" height="250px"></iframe><br>
+        <span>resume using embed tag</span><br>
+        <embed src="./resume.pdf" type="application/pdf">
+        <p>resume using object tag</p>
+        <object data="./resume.pdf" type="application/pdf"></object>
+        <form action="./1.html">
+            <p>image instead of sumbmit button</p>
+        <input type="image" src="./sp.jpg" alt="" width="80px">
+        </form>
+        <p>underline tag</p>
+        <u>underline text</u><br><br>
+        <fieldset style="width:250px;">
+        <img src="./sp.jpg" alt="spidy" width="80px">
+        <a href="./sp.jpg" download>download image</a>
+    </fieldset>
+    </div><hr>
     <div>
         <h2 style="color:red ;">1 ) Difference between bold tag and strong tag</h2>
         <h3>1. bold tag</h3>
@@ -43,6 +73,7 @@
         <p class='wrong'>&#10006;</p>
         <p>₹​ Indian rupee sign. HTML: # 8 3 7 7 = &#8377;</p>
         <table border="2">
+            <caption>Table heading</caption>
             <style>
                 table {
                     border-collapse: collapse;
@@ -146,7 +177,11 @@
     </div><hr>
     <h2 style="margin: 50px; display: inline;">Forms</h2>
     <div style="display:flex; justify-content: center;">
-        <form action="table.html">
+        <fieldset style="width: 350px;
+                padding: 10px;
+                border: 2px solid black;">
+                 <legend style="text-align: center;">form heading(text aligned center)</legend>
+        <form action="table.html" target="_blank" >
             <style>
                 form {
                     width: 350px;
@@ -171,18 +206,19 @@
                 <input type="radio" name="gender" id="male">
                 <label for="female">Female :</label>
                 <input type="radio" name="gender" id="female"><br>
-            </div>
+            </div><p><abbr title="Bachelore of Engineering">BE</abbr></p>
             <div>
                 Select known language:
                 <label class="styl" for="eng">English :</label>
                 <input type="checkbox" name="lang" id="eng">
                 <label for="u">Urdu :</label>
                 <input type="checkbox" name="lang" id="u">
-                <input type="submit" value="SUB"><br>
+                <input type="submit" style="background-color:red ;"><br>
             </div>
             <div>
                 <label for="CAR">CAR</label>
                 <select name="mycar" id="CAR">
+                    <option value="">Select Car</option>
                     <option value="ind">Indica</option>
                     <option value="n">Nano</option>
                     <option value="lamb">lambo</option>
@@ -196,9 +232,19 @@
             <input type="reset" name="" id=""><br>
             Write about Yourself : <br> <textarea name="mytext" id="" cols="30" rows="10" placeholder="About Yourself"></textarea>
             </div>
-        </form>
+        </form></fieldset>
     </div><hr>
-    
+    <p style="font-size: 50px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sed distinctio repudiandae ab quis minima consequatur eligendi fugiat quia facilis placeat vitae aut, facere unde, pariatur perferendis eum libero excepturi aliquid! Error perferendis molestias debitis quia accusantium nesciunt ea a suscipit illo odio dolorum aliquid quidem commodi, saepe sint porro.</p>
+    <blockquote style="font-size: 50px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas voluptatibus non itaque possimus modi, voluptatem ipsam accusamus distinctio. Delectus, blanditiis nemo sed temporibus nisi minima, dignissimos repudiandae error pariatur itaque aut! Corrupti nesciunt soluta amet enim voluptatibus eligendi qui id aperiam recusandae doloremque, totam accusantium, voluptatem reprehenderit neque, ratione omnis.</blockquote>
+
+    <div class="animation">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia inventore reprehenderit ipsa at nam consequatur?
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a href="./index2.html">Next Page  -----></a>
 </body>
 
 </html>

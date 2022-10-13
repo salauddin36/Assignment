@@ -1,0 +1,70 @@
+body{background-color: lightgrey;
+    
+}
+ul{
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: red;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    padding: 20px;
+    text-decoration: none ;
+}
+a:hover{
+    background-color: black;
+}
+
+/* dropdown */
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {text-align: center;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f7a4a4}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+  
+  /* 2nd drop down */
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content1 a {text-align: center;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+  }
+  .dropdown-content1 a:hover {background-color: #f7a4a4}
+  .dropdown1:hover .dropdown-content1 {
+    display: block;
+  }
