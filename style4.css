@@ -1,0 +1,102 @@
+     /* hover to get info */
+ ul{
+      list-style: none;
+      border: 1px solid black;
+      overflow: hidden;
+      background-color: rgb(255, 255, 255);
+      width: 30px;
+      font-size: 20px;
+  }
+.hide{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.hide a {
+  color: rgb(255, 254, 254);
+  padding: 0 14px;
+  text-decoration: none;
+}
+.show:hover .hide{margin-left:18px;
+  border-radius: 10px;
+  display: inline;
+  background-color: rgb(0, 0, 0)
+}
+h1{width: 80%;
+  margin: auto;background-color: bisque;
+  border: 1px solid green;
+}
+    /* invalid in input tags */
+.invalid{border: 1px solid black;
+  width: 100%;
+  height: 150px;
+  background-color: blanchedalmond;
+  text-align: center;
+}
+
+input:invalid{
+  border: 2px solid red;
+  background:white url(./error-icon.png) no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+/* Animation example 1 */
+.anim{text-align: center;
+    background-color: bisque;
+    border: 1px solid black;
+}
+.anim h3,p{
+    animation: changecolor 5s;
+}
+@keyframes changecolor{
+    from{color: blue;
+        background-color: rgb(0, 255, 38);
+        }
+    to{color: rgb(255, 255, 255);
+      background-color: rgb(217, 0, 255);
+    }
+}
+
+/* Animation example 2 */
+.anim1{
+    width: 100%;
+    height: 300px;
+    background-color: blanchedalmond;
+    border: 1px solid;
+}
+.box{text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    border: 1px solid black;
+    animation: position 5s;
+    position: relative;
+}
+ @keyframes position{
+    0%{background-color: blue;left: 0px; top: 0px;}
+    25%{background-color: blue;left: 200px; top: 0px;}
+    50%{background-color: rgb(55, 239, 166);left: 200px; top: 200px;}
+    75%{background-color: rgb(74, 254, 251);left: 0px; top: 200px;}
+    100%{background-color: rgb(255, 21, 0);left: 0px; top: 0px;}
+ }
+/* list in one line */
+.float ul{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.float ul li{
+  margin: 10px;
+}
+.opacityImg img{
+  opacity: 0.5;
+  width: 30vw;
+}
+.opacityImg img:hover{
+  opacity: 1;
+}

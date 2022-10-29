@@ -1,5 +1,6 @@
-body{background-color: lightgrey;
-    
+body{background-color: rgb(116, 116, 116);
+    position: relative;
+    margin: 0;
 }
 ul{
     list-style: none;
@@ -46,9 +47,11 @@ a:hover{
   .dropdown:hover .dropdown-content {
     display: block;
   }
-
-
-
+/* for position sticky */
+.sticky{
+  position: sticky;
+  top: 0;
+}
   
   /* 2nd drop down */
   .dropdown-content1 {
@@ -68,3 +71,27 @@ a:hover{
   .dropdown1:hover .dropdown-content1 {
     display: block;
   }
+
+  /* pagination  */
+.class1{background-color: red;
+  position: sticky;
+  bottom: 0;
+  box-sizing: border-box;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.class1 a{
+  color: white;
+  padding: 0 20px 0 20px;
+  font-size: 30px;
+  text-decoration: none;
+}
+.class1 a:hover{
+  background-color: gray;
+  color: white;
+}
+img{
+  width:100% ;
+}
