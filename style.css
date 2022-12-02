@@ -1,4 +1,6 @@
-/* External Css and Element selector */
+*{font-family: 'aqua grotesque regular';
+}
+    /* External Css and Element selector */
 p{
     color: red;
 }
